@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="GiftGenerator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GiftGenerator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="giftText" HorizontalAlignment="Left" Margin="331,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:Name="giftButton" Content="Generate!" HorizontalAlignment="Left" Height="96" Margin="832,153,0,0" VerticalAlignment="Top" Width="276" Click="giftButton_Click"/>
+        <HyperlinkButton x:Name="giftInfo" Content="Find out more!" HorizontalAlignment="Left" Margin="416,521,0,0" VerticalAlignment="Top" NavigateUri="http://bing.com"/>
+
+    </Grid>
+</Page>
