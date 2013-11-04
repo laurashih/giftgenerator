@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="giftText" FontSize="70" HorizontalAlignment="Left" Margin="331,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="giftText" FontSize="70" HorizontalAlignment="Left" Margin="331,180,0,0" TextWrapping="Wrap" Text="gift here" VerticalAlignment="Top"/>
         <Button x:Name="giftButton" Content="Generate!" HorizontalAlignment="Left" Height="96" Margin="832,153,0,0" VerticalAlignment="Top" Width="276" Click="giftButton_Click"/>
         <HyperlinkButton x:Name="giftInfo" Content="Find out more!" HorizontalAlignment="Left" Margin="416,521,0,0" VerticalAlignment="Top" NavigateUri="http://bing.com"/>
 
